@@ -1,5 +1,7 @@
 # My vimrc
 This is the vimrc file I am currently using. It requires vim 7.0 or later version to support some of the plugins.
+## Screenshot
+![vim screenshot](images/screenshot.png)
 ## Installation
 Clone the `.vimrc`, `.ycm_extra_conf` file to your $HOME directory and run
 ```sh
