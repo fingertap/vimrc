@@ -1,5 +1,5 @@
 # My vimrc
-This is the vimrc file I am currently using. It requires vim 7.0 or later version to support some of the plugins.
+This is the vimrc file I am currently using. It requires vim 7.3 or later version to support some of the plugins.
 ## Screenshot
 ![vim screenshot](images/screenshot.png)
 ## Installation
@@ -21,7 +21,7 @@ CentOS
 sudo yum install ctags
 ```
 Install the patched [Monaco font](https://gist.github.com/baopham/1838072) to enable the arrows in `vim-airline`.
-Notice that in CentOS you may need to compile a vim with version later than 7.0 to get all features of plugins working.
+Notice that in CentOS you may need to compile a vim with version later than 7.3 to get all features of plugins working.
 Next you need to compile `YouCompleteMe` as stated [here](https://github.com/Valloric/YouCompleteMe).
 ## Bugs
 Due to an vim 8.0 bug, I disabled the `tagbar` plugin in it. One can easily enable it by uncommenting the line
