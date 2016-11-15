@@ -46,8 +46,13 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'artur-shaik/vim-javacomplete2'
 " python completion
 Plugin 'davidhalter/jedi-vim'
+" for scala
 Plugin 'derekwyatt/vim-scala'
+" for brackets completion
 Plugin 'Raimondi/delimitMate'
+" for shell interaction, e.g. python
+Plugin 'metakirby5/codi.vim'
+
 
 " Colorscheme
 Plugin 'morhetz/gruvbox'
