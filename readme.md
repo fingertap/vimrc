@@ -3,8 +3,11 @@ This is the vimrc file I am currently using. It requires vim 7.3 or later versio
 ## Screenshot
 ![vim screenshot](images/screenshot.png)
 ## Installation
-Clone the `.vimrc`, `.ycm_extra_conf` file to your $HOME directory and run
+Just run the following command
 ```sh
+git clone https://github.com/fingertap/vimrc.git ${HOME}/vimconfig
+ln -s ${HOME}/vimconfig/.vimrc ${HOME}/.vimrc
+ln -s ${HOME}/vimconfig/.ycm_extra_conf.py ${HOME}/.ycm_extra_conf.py
 mkdir -p ${HOME}/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim ${HOME}/.vim/bundle/Vundle.vim
 ```
