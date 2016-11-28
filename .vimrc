@@ -121,7 +121,18 @@ let g:tagbar_compact = 1
 "autocmd VimEnter * nested :call tagbar#autoopen(1)
 let g:tagbar_foldlevel=2
 "let g:tagbar_sort=0
-"
+
+""""""""""""""""""""
+"       codi       "
+""""""""""""""""""""
+let g:codi#interpreters = {
+      \ 'python': {
+          \ 'bin': 'python2',
+          \ 'prompt': '^\(>>>\|\.\.\.\) ',
+          \ },
+      \ }
+
+
 "-------------------------"
 "      The Interface      "
 "-------------------------"
