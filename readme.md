@@ -1,6 +1,7 @@
 # My vimrc
 This is the vimrc file I am currently using. It requires vim 7.4 or later version to support some of the plugins.
 ## Screenshot
+The screenshot is caught editing the `vimrc`.
 ![vim screenshot](images/screenshot.png)
 ## Installation
 Just run the following command

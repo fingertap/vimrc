@@ -1,4 +1,3 @@
-
 "------------------------"
 "       For Coding       "
 "------------------------"
@@ -16,6 +15,9 @@ set noundofile
 set hlsearch
 set fileencodings=utf-8,cp936
 set fileencoding=utf-8
+" set warning area and dangerous area of coding width
+let &colorcolumn="80,".join(range(120,999),",")
+
 " set cmdheight = 2
 
 "------------------------"
@@ -51,7 +53,7 @@ Plugin 'derekwyatt/vim-scala'
 " for brackets completion
 Plugin 'Raimondi/delimitMate'
 " for shell interaction, e.g. python
-Plugin 'metakirby5/codi.vim'
+" Plugin 'metakirby5/codi.vim'
 
 
 " Colorscheme
@@ -116,7 +118,7 @@ let NERDTreeQuitOnOpen=1
 """"""""""""""""""""
 "      tagbar      "
 """"""""""""""""""""
-let g:tagbar_width=20
+let g:tagbar_width=60
 let g:tagbar_compact = 1
 "autocmd VimEnter * nested :call tagbar#autoopen(1)
 let g:tagbar_foldlevel=2
