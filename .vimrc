@@ -51,7 +51,7 @@ Plugin 'davidhalter/jedi-vim'
 " for scala
 Plugin 'derekwyatt/vim-scala'
 " for brackets completion
-Plugin 'Raimondi/delimitMate'
+Plugin 'jiangmiao/auto-pairs'
 " for shell interaction, e.g. python
 " Plugin 'metakirby5/codi.vim'
 
