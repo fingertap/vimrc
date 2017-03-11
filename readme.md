@@ -24,6 +24,12 @@ CentOS
 ```
 sudo yum install ctags
 ```
+OSX
+```
+brew install ctags
+```
 Install the patched [Monaco font](https://gist.github.com/baopham/1838072) to enable the arrows in `vim-airline`.
+You may need to manually assign appropriate symbol for Linux/OSX. Just type `:h airline` and see what symbols are available
+by searching the keyword `symbol`.
 Notice that in CentOS you may need to compile a vim with version later than 7.4 to get all features of plugins working.
 Next you need to compile `YouCompleteMe` as stated [here](https://github.com/Valloric/YouCompleteMe).
