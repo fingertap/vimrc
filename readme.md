@@ -6,9 +6,9 @@ The screenshot is caught editing the `vimrc`.
 ## Installation
 Just run the following command
 ```sh
-git clone https://github.com/fingertap/vimrc.git ${HOME}/vimconfig
-ln -s ${HOME}/vimconfig/.vimrc ${HOME}/.vimrc
-ln -s ${HOME}/vimconfig/.ycm_extra_conf.py ${HOME}/.ycm_extra_conf.py
+git clone https://github.com/fingertap/vimrc.git ${HOME}/.config/vim
+ln -s ${HOME}/.config/vim/.vimrc ${HOME}/.vimrc
+ln -s ${HOME}/.config/vim.ycm_extra_conf.py ${HOME}/.ycm_extra_conf.py
 mkdir -p ${HOME}/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim ${HOME}/.vim/bundle/Vundle.vim
 ```
