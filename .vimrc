@@ -15,6 +15,8 @@ set noundofile
 set hlsearch
 set fileencodings=utf-8,cp936
 set fileencoding=utf-8
+set splitbelow
+set splitright
 " set warning area and dangerous area of coding width
 let &colorcolumn="80,".join(range(120,999),",")
 
@@ -81,7 +83,8 @@ let g:airline#extensions#tabline#left_alt_sep = ''
 """""""""""""""""""
 "  YouCompleteMe  "
 """""""""""""""""""
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '/home/han/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif "auto close preview window
 """""""""""""""""""
 "    syntastic    "
